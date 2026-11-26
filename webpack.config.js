@@ -22,5 +22,9 @@ export default {
 				use: ["style-loader", "css-loader"],
 			},
 		]
+	},
+	devtool: "eval-source-map",
+	devServer: {
+		watchFiles: ["./src/template.html"]
 	}
 };
